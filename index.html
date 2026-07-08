@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Li Zhang | Urban Analytics</title>
+    <meta
+      name="description"
+      content="Personal academic website for research, publications, teaching, and contact information."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Back to homepage">
+        <img src="assets/resilience-science-logo-full.png" alt="Resilience Science Group" />
+      </a>
+      <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">中文</button>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#research" data-i18n="navResearch">Research</a>
+        <a href="#publications" data-i18n="navPublications">Publications</a>
+        <a href="#teaching" data-i18n="navTeaching">Teaching</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="profile-section">
+        <div class="profile-copy">
+          <p class="eyebrow" data-i18n="keywords">Urban Resilience / Spatial Behavior / Computational Urban Design</p>
+          <p class="eyebrow zh">城市韧性 / 空间行为 / 计算性城市设计</p>
+          <h1 data-i18n="profileName">Li Zhang</h1>
+          <p class="lead" data-i18n="lead">
+            My research interests focus on the interactions between space and human behavior under
+            climate change and digital transformation, and their implications for urban planning
+            and design.
+          </p>
+          <p class="lead zh">
+            我的研究关注气候变化与数字化转型背景下空间与人类行为之间的互动关系，
+            以及这些互动对城市规划与设计的影响。
+          </p>
+          <p data-i18n="bio">
+            I am affiliated with <strong>Shenzhen University</strong>. My recent work focuses on
+            human behavioral responses and recovery modeling during extreme climate events and
+            disasters, cyber-physical urban planning, computational urban design, and AI-enabled
+            urban analytics for resilient cities.
+          </p>
+          <p class="zh">
+            我任职于<strong>深圳大学</strong>。近期研究聚焦极端气候事件与灾害中的人类行为响应及恢复建模、
+            网络-物理城市规划、计算性城市设计，以及面向韧性城市的 AI 赋能城市分析。
+          </p>
+          <div class="profile-actions" aria-label="Profile links">
+            <a href="#publications" data-i18n="actionPublications">Publications</a>
+            <a href="#contact" data-i18n="actionContact">Contact</a>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=Ibcfs-sAAAAJ&view_op=list_works&sortby=pubdate" aria-label="Google Scholar profile">Google Scholar</a>
+            <a href="#" aria-label="CV PDF">CV</a>
+          </div>
+        </div>
+        <aside class="profile-card" aria-label="Profile summary">
+          <img src="assets/li-zhang-profile.jpg" alt="Li Zhang profile photo" />
+          <div class="profile-meta">
+            <strong data-i18n="profileName">Li Zhang</strong>
+            <span data-i18n="affiliation">Shenzhen University</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="news-section" aria-labelledby="news-title">
+        <div class="section-heading">
+          <h2 id="news-title" data-i18n="newsTitle">Recent News</h2>
+          <p data-i18n="newsDesc">Recent publications and profile updates from Google Scholar.</p>
+        </div>
+        <ol class="news-list">
+          <li>
+            <time datetime="2026-07">Jul 2026</time>
+            <p data-i18n="news1">Published work on flood-driven relocation behavior and urban-rural disparities in Zhengzhou.</p>
+          </li>
+          <li>
+            <time datetime="2026-05">May 2026</time>
+            <p data-i18n="news2">Published research extending the theory of planned behavior to explain intra-city migration during extreme rainfall disasters.</p>
+          </li>
+          <li>
+            <time datetime="2025-11">Nov 2025</time>
+            <p data-i18n="news3">Contributed to GeoShapley-based explainable GeoAI research on sustainable community satisfaction assessment in Chengdu.</p>
+          </li>
+          <li>
+            <time datetime="2025-02">Feb 2025</time>
+            <p data-i18n="news4">Published work developing an environmental equity index for urban heat wave events.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="research" class="content-section" aria-labelledby="research-title">
+        <div class="section-heading">
+          <h2 id="research-title" data-i18n="researchTitle">Research</h2>
+        </div>
+        <div class="theme-grid">
+          <article>
+            <h3 data-i18n="research1Title">Urban Resilience</h3>
+            <p data-i18n="research1Desc">Modeling social system disruptions and recovery during extreme climate events and disasters for resilient cities.</p>
+            <video class="research-media" src="assets/urban-resilience-loop.mp4" autoplay muted loop playsinline></video>
+            <p class="zh">面向韧性城市，建模极端气候事件与灾害中的社会系统扰动及恢复过程。</p>
+          </article>
+          <article>
+            <h3 data-i18n="research2Title">Spatial Behavior</h3>
+            <p data-i18n="research2Desc">Interactions between urban environments and human behavior, with a focus on behavioral transformation in the digital era.</p>
+            <img class="research-media" src="assets/spatial-behavior-trajectory.gif" alt="Animated Shenzhen space-time trajectory" />
+            <p class="zh">关注城市环境与人类行为之间的互动，以及数字时代下行为模式的转型。</p>
+          </article>
+          <article>
+            <h3 data-i18n="research3Title">HAI Urban Design</h3>
+            <p data-i18n="research3Desc">Interactive human-AI systems for collaborative decision-making in urban design.</p>
+            <img class="research-media" src="assets/hai-urban-design.jpg" alt="Interactive urban design table" />
+            <p class="zh">用于城市设计协同决策的交互式人机智能系统。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="content-section" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <h2 id="publications-title" data-i18n="publicationsTitle">Publications</h2>
+          <p data-i18n="publicationsDesc">Works listed by publication date on Google Scholar.</p>
+        </div>
+        <div class="publication-list">
+          <article>
+            <h3>Urban-rural disparities in flood-driven relocation behavior: spatiotemporal evidence from Zhengzhou</h3>
+            <p><strong>L Zhang</strong>, X Yang, Z Yuan, X Ma, D Kuang, K Li, Z Zhang, J Xiao, X Xie, et al.</p>
+            <p class="venue">Climate Risk Management 53, 100831, 2026</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:Se3iqnhoufwC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Extending the theory of planned behavior to explain Intra City migration during extreme rainfall disasters: Evidence from Zhengzhou, China</h3>
+            <p><strong>L Zhang</strong>, J Xiao</p>
+            <p class="venue">Urban Climate 65, 102750, 2026</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:zYLM7Y9cAGgC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>GeoShapley-Based Explainable GeoAI for Sustainable Community Satisfaction Assessment: Evidence from Chengdu, China</h3>
+            <p>W Zhang, <strong>L Zhang</strong>, J Li, S Guo, Q Hu, R Zhou</p>
+            <p class="venue">Sustainability 17 (22), 10261, 2025</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:WF5omc3nYNoC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Corrigendum "Developing an environmental equity index for urban heat wave event" [Environ. Sustain. Indicat. (25), February 2025, 100565]</h3>
+            <p>X Ma, <strong>L Zhang</strong>, X Yang, Y Fan, F Hiroatsu, J Zhang, L Li</p>
+            <p class="venue">Environmental and Sustainability Indicators 26, 100608, 2025</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:_FxGoFyzp5QC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>The effect of urban rail station area development on the vulnerability of city blocks to infectious disease spread</h3>
+            <p>W Zhang, C Zhang, <strong>L Zhang</strong></p>
+            <p class="venue">Applied Geography 179, 103638, 2025</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:Tyk-4Ss8FVUC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Developing an environmental equity index for urban heat wave event</h3>
+            <p>X Ma, <strong>L Zhang</strong>, X Yang, Y Fan, F Hiroatsu, J Zhang, L Li</p>
+            <p class="venue">Environmental and Sustainability Indicators 25, 100565, 2025</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:u5HHmVD_uO8C">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Creative assets, people, and places: Rural art action practices of US nonprofit organizations</h3>
+            <p>T Ma, Y Wang, <strong>L Zhang</strong>, W Hong, X Yang</p>
+            <p class="venue">Journal of Rural Studies 113, 103476, 2025</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:Y0pCki6q_DkC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Connection patterns and resilience simulation of innovation network in the context of technology transfer: A case study of strategic emerging industries in the Guangdong-Hong Kong-Macao Greater Bay Area</h3>
+            <p>T Ma, W Hong, Z Cao, <strong>L Zhang</strong>, X Yang</p>
+            <p class="venue">Sustainable Cities and Society 106, 105396, 2024</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:W7OEmFMy1HYC">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>Parametric design and multi-objective optimization of daylight performance in gallery skylight systems: A case study on the high museum expansion</h3>
+            <p>K Li, H Fukuda, <strong>L Zhang</strong>, R Zhou</p>
+            <p class="venue">Energy and Buildings 311, 114136, 2024</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:YsMSGLbcyi4C">Scholar</a>
+            </div>
+          </article>
+          <article>
+            <h3>An investigation into residents' willingness to pay for vertical greening in China</h3>
+            <p>Y Tan, H Fukuda, <strong>L Zhang</strong>, S Wang, W Gao, Z Liu</p>
+            <p class="venue">Urban Ecosystems 25 (4), 1353-1364, 2022</p>
+            <div class="paper-links">
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:ufrVoPGSRksC">Scholar</a>
+            </div>
+          </article>
+          <div class="see-all">
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=Ibcfs-sAAAAJ&view_op=list_works&sortby=pubdate" data-i18n="seeAllPublications">See all publications</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="teaching" class="content-section" aria-labelledby="teaching-title">
+        <div class="section-heading">
+          <h2 id="teaching-title" data-i18n="teachingTitle">Teaching</h2>
+        </div>
+        <div class="course-list">
+          <article>
+            <h3 data-i18n="course1Title">Information Technology and Urban Resilience</h3>
+            <p data-i18n="course1Desc">
+              This course explores how digital technologies can enhance urban resilience across
+              disaster preparedness, response, recovery, and long-term planning. It introduces the
+              use of GIS, big data, artificial intelligence, and computational modeling to analyze
+              population responses and recovery during extreme events. Students will learn how
+              data-driven approaches support urban risk assessment, human behavior analysis,
+              emergency management, and resilience planning.
+            </p>
+            <p class="zh">
+              本课程探讨数字技术如何提升城市在灾害准备、响应、恢复与长期规划中的韧性。
+              课程介绍 GIS、大数据、人工智能与计算建模在极端事件中人口响应与恢复分析中的应用。
+              学生将学习数据驱动方法如何支持城市风险评估、人类行为分析、应急管理与韧性规划。
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="course2Title">HAI Urban Design</h3>
+            <p data-i18n="course2Desc">
+              This course introduces a human-AI collaborative approach to urban design, integrating
+              generative AI, spatial analytics, and interactive digital platforms into the design
+              process. Using interactive urban interfaces, students explore urban systems through
+              real-time visualization, scenario simulation, and human-AI interaction. The course
+              emphasizes collaborative decision-making, enabling students to evaluate design
+              alternatives, and develop data-informed, human-centered urban design solutions.
+            </p>
+            <p class="zh">
+              本课程介绍面向城市设计的人机协同方法，将生成式 AI、空间分析与交互式数字平台整合进设计过程。
+              通过交互式城市界面，学生将借助实时可视化、情景模拟与人机交互理解城市系统。
+              课程强调协同决策，帮助学生评估设计方案、理解规划干预影响，并形成数据支撑、以人为本的城市设计方案。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section contact-section" aria-labelledby="contact-title">
+        <h2 id="contact-title" data-i18n="contactTitle">Contact</h2>
+        <p>
+          <span data-i18n="address">3688 Nanhai Ave,<br />Nanshan District, Shenzhen<br />518000, China</span><br />
+          Email: <a href="mailto:zhangliszu@szu.edu.cn">zhangliszu@szu.edu.cn</a><br />
+          Scholar: <a href="https://scholar.google.com/citations?hl=zh-CN&user=Ibcfs-sAAAAJ&view_op=list_works&sortby=pubdate" data-i18n="scholarLink">Google Scholar profile</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>(c) 2026 Li Zhang. Last updated July 2026.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
