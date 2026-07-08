@@ -19,7 +19,7 @@ const translations = {
     lead:
       "My research interests focus on the interactions between space and human behavior under climate change and digital transformation, and their implications for urban planning and design.",
     bio:
-      "Climate change and digital transformation are profoundly reshaping the relationship between cities and people. As extreme climate events become more frequent and digital technologies continue to change how people perceive, use, and shape urban space, traditional planning concepts based on static space are gradually shifting toward planning paradigms centered on dynamic behavior and complex systems. Understanding the interaction mechanisms between urban environments and human behavior, and how digital technologies reconstruct this relationship, has become an important scientific question for building future cities.",
+      "Climate change and digital transformation are profoundly reshaping the relationship between cities and people. As extreme climate events become more frequent and digital technologies continue to change how people perceive, use, and shape urban space, traditional planning concepts based on static space are gradually shifting toward planning paradigms centered on dynamic behavior and complex systems. Understanding the interaction mechanisms between urban environments and human behavior, and how digital technologies reconstruct this relationship, has become an important scientific question for building future cities.<br /><br />My research focuses on the interactions between space and human behavior under climate change and digital transformation. It integrates multi-source spatiotemporal sensing, artificial intelligence, computational modeling, and human-AI collaborative design to explore the disturbance and recovery mechanisms of social systems during extreme climate events and disasters, reveal the evolution of human spatial behavior in the digital era, and translate behavioral sensing and computational intelligence into decision-support capabilities for urban planning and design.",
     actionPublications: "Publications",
     actionContact: "Contact",
     affiliation: "Shenzhen University",
@@ -68,7 +68,7 @@ const translations = {
     lead:
       "我的研究兴趣聚焦于气候变化与数字化转型背景下空间与人类行为之间的相互作用，以及这些关系对城市规划与设计的影响。",
     bio:
-      "气候变化与数字化转型正在深刻重塑城市与人之间的关系。极端气候事件日益频发，数字技术不断改变人们感知、使用和塑造城市空间的方式，传统基于静态空间的规划理念正逐步向面向动态行为与复杂系统的规划范式转变。理解城市环境与人类行为之间的互动机制，以及数字技术如何重构这种关系，已成为建设未来城市的重要科学问题。",
+      "气候变化与数字化转型正在深刻重塑城市与人之间的关系。极端气候事件日益频发，数字技术不断改变人们感知、使用和塑造城市空间的方式，传统基于静态空间的规划理念正逐步向面向动态行为与复杂系统的规划范式转变。理解城市环境与人类行为之间的互动机制，以及数字技术如何重构这种关系，已成为建设未来城市的重要科学问题。<br /><br />我的研究聚焦于气候变化与数字化转型背景下空间与人类行为的相互作用，融合多源时空感知、人工智能、计算建模和人机协同设计等方法，探索极端气候与灾害期间社会系统的扰动与恢复机制，揭示数字时代人类空间行为的演变规律，并将行为感知与计算智能转化为面向城市规划与设计的决策支持能力。",
     actionPublications: "论文",
     actionContact: "联系",
     affiliation: "深圳大学",
