@@ -156,3 +156,59 @@ languageToggle?.addEventListener("click", () => {
 });
 
 setLanguage(localStorage.getItem("site-language") === "zh" ? "zh" : "en");
+
+const publicationList = document.querySelector(".publication-list");
+const scholarProfile =
+  "https://scholar.google.com/citations?hl=zh-CN&user=Ibcfs-sAAAAJ&view_op=list_works&sortby=pubdate";
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function highlightAuthor(authors) {
+  return escapeHtml(authors).replace(/\b(Li Zhang|L Zhang|Zhang Li)\b/g, "<strong>$1</strong>");
+}
+
+function renderPublications(publications) {
+  if (!publicationList || !Array.isArray(publications) || publications.length === 0) return;
+
+  const items = publications.slice(0, 10).map((publication) => {
+    const title = escapeHtml(publication.title);
+    const authors = highlightAuthor(publication.authors);
+    const venue = escapeHtml(publication.venue);
+    const url = escapeHtml(publication.url || scholarProfile);
+
+    return `
+      <article>
+        <h3>${title}</h3>
+        <p>${authors}</p>
+        <p class="venue">${venue}</p>
+        <div class="paper-links">
+          <a href="${url}">Scholar</a>
+        </div>
+      </article>
+    `;
+  });
+
+  items.push(`
+    <div class="see-all">
+      <a href="${scholarProfile}" data-i18n="seeAllPublications">${
+        translations[document.body.dataset.lang || "en"].seeAllPublications
+      }</a>
+    </div>
+  `);
+
+  publicationList.innerHTML = items.join("");
+}
+
+fetch("publications.json", { cache: "no-store" })
+  .then((response) => (response.ok ? response.json() : Promise.reject(response)))
+  .then(renderPublications)
+  .catch(() => {
+    // Keep the static publication list when the JSON file is unavailable.
+  });
