@@ -27,10 +27,11 @@ const translations = {
     newsDesc: "Recent publications and profile updates from Google Scholar.",
     news1: "Published work on urban waterlogging risk and nonlinear drivers in high-density cities.",
     news2:
-      "Published research extending the theory of planned behavior to explain intra-city migration during extreme rainfall disasters.",
+      "Published research on urban-rural disparities in flood-driven relocation behavior in Zhengzhou.",
     news3:
+      "Published research extending the theory of planned behavior to explain intra-city migration during extreme rainfall disasters.",
+    news4:
       "Contributed to GeoShapley-based explainable GeoAI research on sustainable community satisfaction assessment in Chengdu.",
-    news4: "Published work developing an environmental equity index for urban heat wave events.",
     researchTitle: "Research",
     researchDesc: "Current work connects resilience, spatial behavior, and human-AI urban design.",
     research1Title: "Urban Resilience",
@@ -75,9 +76,9 @@ const translations = {
     newsTitle: "近况",
     newsDesc: "近期发表与 Google Scholar 主页更新。",
     news1: "发表关于高密度城市内涝风险及其非线性驱动因素的研究。",
-    news2: "发表将计划行为理论拓展至极端降雨灾害中城市内部迁移解释的研究。",
-    news3: "参与基于 GeoShapley 的可解释 GeoAI 与成都社区满意度评估研究。",
-    news4: "发表城市热浪事件环境公平指数构建研究。",
+    news2: "发表关于郑州洪涝驱动迁移行为及城乡差异的研究。",
+    news3: "发表将计划行为理论拓展至极端降雨灾害中城市内部迁移解释的研究。",
+    news4: "参与基于 GeoShapley 的可解释 GeoAI 与成都社区满意度评估研究。",
     researchTitle: "研究",
     researchDesc: "当前研究连接城市韧性、空间行为与人机协同城市设计。",
     research1Title: "城市韧性",
