@@ -24,9 +24,8 @@ const translations = {
     actionContact: "Contact",
     affiliation: "Shenzhen University",
     newsTitle: "Recent News",
-    newsDesc: "Recent publications and profile updates from Google Scholar.",
     news1:
-      "Published work identifying potential stranding signals during extreme rainfall using LBS data.",
+      '<a href="book-equitably-resilient-city.html">Chinese edition of <em>The Equitably Resilient City</em> published, with translation participation.</a>',
     news2:
       "Published work on urban waterlogging risk and nonlinear drivers in high-density cities.",
     news3:
@@ -75,8 +74,7 @@ const translations = {
     actionContact: "联系",
     affiliation: "深圳大学",
     newsTitle: "近况",
-    newsDesc: "近期发表与 Google Scholar 主页更新。",
-    news1: "发表关于利用 LBS 数据识别极端降雨期间潜在滞留信号的研究。",
+    news1: '<a href="book-equitably-resilient-city.html">参与翻译的《公平韧性城市》出版。</a>',
     news2: "发表关于高密度城市内涝风险及其非线性驱动因素的研究。",
     news3: "发表关于郑州洪涝驱动迁移行为及城乡差异的研究。",
     news4: "发表将计划行为理论拓展至极端降雨灾害中城市内部迁移解释的研究。",

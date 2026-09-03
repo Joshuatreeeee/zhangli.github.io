@@ -60,7 +60,7 @@ a:hover {
 
 .brand img {
   display: block;
-  width: clamp(260px, 23vw, 460px);
+  width: clamp(210px, 18vw, 360px);
   height: auto;
 }
 
@@ -295,6 +295,10 @@ h3 {
   margin: 0;
 }
 
+.news-list a {
+  text-decoration-color: var(--line);
+}
+
 .theme-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -407,6 +411,59 @@ h3 {
   color: var(--muted);
 }
 
+.book-hero {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px) minmax(0, 1fr);
+  gap: clamp(36px, 7vw, 92px);
+  align-items: center;
+  padding: clamp(58px, 8vw, 104px) 0 58px;
+}
+
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
+.book-copy p:not(.eyebrow):not(.lead) {
+  max-width: 900px;
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.book-copy em {
+  color: var(--text);
+  font-style: italic;
+}
+
+.book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 28px;
+}
+
+.book-actions a {
+  font-size: 14px;
+}
+
+.book-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.book-notes article {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.book-notes p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .site-footer {
   width: min(var(--max), calc(100% - var(--page-gutter)));
   margin: 0 auto;
@@ -428,7 +485,7 @@ h3 {
   }
 
   .brand img {
-    width: clamp(170px, 42vw, 250px);
+    width: clamp(140px, 34vw, 210px);
   }
 
   .nav-toggle {
@@ -466,6 +523,7 @@ h3 {
   }
 
   .profile-section,
+  .book-hero,
   .section-heading,
   .news-list li,
   .split-section,
@@ -489,6 +547,11 @@ h3 {
   .course-list {
     grid-template-columns: 1fr;
   }
+
+  .book-notes {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
 }
 
 @media (max-width: 460px) {
@@ -510,7 +573,7 @@ h3 {
   }
 
   .brand img {
-    width: 148px;
+    width: 126px;
   }
 
   .lang-toggle {
