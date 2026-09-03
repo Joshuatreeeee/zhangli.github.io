@@ -1,5 +1,12 @@
 [
   {
+    "title": "A micro-scale analytical framework for identifying potential stranding signals during extreme rainfall using LBS data",
+    "authors": "X Yang, H Jiang, L Zhang",
+    "venue": "International Journal of Disaster Risk Reduction 144, 106397, 2026",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.ijdrr.2026.106397"
+  },
+  {
     "title": "Assessing urban waterlogging risk and nonlinear drivers in high density cities: A multi model machine learning comparative approach",
     "authors": "C Wang, S Huang, W Zhao, X Wang, S Lu, L Zhang, C Yang",
     "venue": "Sustainable Cities and Society 149, 107711, 2026",
@@ -61,12 +68,5 @@
     "venue": "Sustainable Cities and Society 106, 105396, 2024",
     "year": 2024,
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:W7OEmFMy1HYC"
-  },
-  {
-    "title": "Parametric design and multi-objective optimization of daylight performance in gallery skylight systems: A case study on the high museum expansion",
-    "authors": "K Li, H Fukuda, L Zhang, R Zhou",
-    "venue": "Energy and Buildings 311, 114136, 2024",
-    "year": 2024,
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=Ibcfs-sAAAAJ&sortby=pubdate&citation_for_view=Ibcfs-sAAAAJ:YsMSGLbcyi4C"
   }
 ]
